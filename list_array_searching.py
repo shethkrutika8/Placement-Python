@@ -100,7 +100,7 @@ print("Sorted Array : ", list)
 # print("sorted array : ", list)
 
 
-# implement linear search
+'''# implement linear search
 
 n = int(input("Entre the number : "))
 list = []
@@ -117,5 +117,58 @@ for i in range(n):
     if list[i] == search:
         print("Element found at index : ", i)
         fount = True
-    
+    '''
+
+
+# #implement a binary search
+
+# n = int(input("Entre the elements : "))
+# list = []
+
+# for i in range(n):
+#     element = int(input(f"Entre the elements {i+1} : "))
+#     list.append(element)
+
+# list.sort()
+# print("Sorted list", list)
+
+# search = int(input("Entre the number you want to search : "))\
+
+# low = 0
+# high = n - 1
+# found =  False
+
+# while low <= high:
+#     mid = (low + high) // 2
+
+#     if list[mid] == search:
+#         print("Element fount at index : ", i)
+#         found = True
+#         break
+#     elif list[mid] <= high:
+#         low = low + 1
+#     else:
+#         high = mid - 1
+
+# if found  == False:
+#     print("Element not found")
+
+#remove a duplucate form the list 
+
+n = int(input("Entre the number : "))
+list = []
+
+for i in range(n):
+    element = int(input(f"Entre the elements {i+1} : "))
+    list.append(element)
+
+print("Old list", list)
+
+new_list = []
+
+for i in range(n):
+    if list[i] not in new_list:
+        new_list.append(list[i])
+
+print("New list : ", new_list)
 
