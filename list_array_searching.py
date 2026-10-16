@@ -154,7 +154,7 @@ for i in range(n):
 #     print("Element not found")
 
 #remove a duplucate form the list 
-
+'''
 n = int(input("Entre the number : "))
 list = []
 
@@ -171,4 +171,73 @@ for i in range(n):
         new_list.append(list[i])
 
 print("New list : ", new_list)
+
+'''
+
+# # find common element in two lists
+
+# n = int(input("Entre the number of arrays you want to entre in the list : "))
+# list1 =[]
+
+# for i in range(n):
+#     element = int(input(f"Entre the element {i+1} : "))
+#     list1.append(element)
+
+# m = int(input("Entre the number added to array : "))
+# list2 = []
+
+# for j in range(m):
+#     element = int(input(f"Entre the number {j+1} : "))
+#     list2.append(element)
+
+# common_element = []
+
+# for i in range(n):
+#     if list1[i]  in list2:
+#         if list1[i] not in common_element:
+#             common_element.append(list1[i])
+
+# print("Common element", common_element)
+
+
+'''#find the missing number from 1 to n:
+
+n = int(input("Entre the number into list : "))
+list = []
+
+for i in range(n):
+    element = int(input(f"Entre the number {i+1} : "))
+    list.append(element)
+
+for i in range(1, n+1):
+    if i not in list:
+        print("Missing number is : ", i)
+
+'''
+
+# #Move all zeros to the end
+
+# n = int(input("Entre the list size : "))
+# list = []
+
+# for i in range(n):
+#     element = int(input(f"Entre the number {i+1} : "))
+#     list.append(element)
+
+# print("Original list : ", list)
+
+# result = []
+
+# for i in range(n):
+#     if list[i] != 0 :
+#         result.append(list[i])
+
+# for i in range(n):
+#     if list[i] == 0:
+#         result.append(list[i])
+
+# print("Zero at the end : ",result) 
+
+#count even and odd element
+
 
