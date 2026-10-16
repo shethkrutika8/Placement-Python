@@ -238,6 +238,100 @@ for i in range(1, n+1):
 
 # print("Zero at the end : ",result) 
 
-#count even and odd element
+'''#count even and odd element
 
+n = int(input("How many elements enter in the list"))
+list = []
+
+even_count = 0
+odd_count = 0
+
+for i in range(n):
+    element = int(input(f"Entre the number {i+1} : "))
+    list.append(element)
+
+print("List ", list)
+
+
+for i in range(n):
+    if list[i] % 2 == 0:
+        even_count += 1
+    else:
+        odd_count += 1
+
+print("Even count : ", even_count)
+print("Odd Count : ", odd_count)'''
+
+
+# #Merge two sorted list
+
+# n = int(input("How many number need to entre in the list : "))
+# list1 = []
+
+# for i in range(n):
+#     element = int(input(f"Entre the number {i+1} : "))
+#     list1.append(element)
+
+# m = int(input("How many number in the enterd in the list : "))
+# list2 = []
+
+# for j in range(m):
+#     element = int(input(f"Entre the number {j+1} : "))
+#     list2.append(element)
+
+# result = []
+# i = 0
+# j = 0
+
+# while i <len(list1) and j < len(list2):
+#     if list1[i] < list2[j]:
+#         result.append(list[i])
+#         i += 1
+#     else:
+#         result.append(list2[j])
+#         j += 1
+# while i < len(list1):
+#     result.append(list1[i])
+#     i += 1
+# while j <len(list2):
+#     result.append(list2[j])
+#     j += 1
+
+# print("First list : ", list1)
+# print("Second list : ", list2)
+# print("Merged list : ", result)
+
+'''# find a pairs whoes  equal to a target
+n = int(input("How many number you need to entre : "))
+list = []
+
+for i in range(n):
+    element = int(input(f"Entre the Number {i+1} : "))
+    list.append(element)
+print("List :", list)
+
+target = int(input("Entre the number you need to find : "))
+print("Target is :", target)
+
+for i in range(len(list)):
+    for j in range(i+1, len(list)):
+        if list[i] + list[j] == target:
+            print(list[i], list[j])'''
+
+# #rotate the number from the kth position
+# n = int(input("Entre the number : "))
+# list = []
+# for i in range(n):
+#     element = int(input(f"Entre the number {i+1} : "))
+#     list.append(element)
+
+# k = int(input("Entre the number for you want to rotate : "))
+# print("rotation form : ", k)
+
+# m = len(list)
+# k = k % m
+
+# rotated  = list[m-k:] + list[:m-k]
+
+# print(rotated)
 
