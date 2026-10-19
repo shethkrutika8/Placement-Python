@@ -31,7 +31,7 @@
 #     print("Not a Prime Number")
 
 
-# Find factorial using recursion
+'''# Find factorial using recursion
 
 def find_factorial_recursive(n):
     if n == 0 or n == 1:
@@ -45,4 +45,22 @@ if num < 0:
     print("Factorial is not defined for negative numbers.")
 else:
     print(f"The factorial of {num} is {find_factorial_recursive(num)}")
+
+'''
+
+#create a student class with the name and marks
+
+class student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def display(self):
+        print("Student Name : ", self.name)
+        print("Student mark : ", self.marks)
+
+s1.stuent("Krutika", 90)
+
+s1.dispaly()
+
 
