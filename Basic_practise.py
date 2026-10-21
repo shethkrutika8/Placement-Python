@@ -202,4 +202,24 @@ for i in range(n):
 #         break
 
 # print("LCM:", lcm)
+'''
+#check whetre is a leap year or not ?
 
+year = int(input("Entre the year : "))
+if year % 400 == 0:
+    print("Leap Year")
+elif year % 100 == 0:
+    print("Not Leap year")
+elif year % 4 == 0:
+    print("Leap Year")
+else:
+    print("Not a leap Year")'''
+
+
+#calculate sum from 1 to n
+
+n = int(input("Entre the number : "))
+sum = 0
+for i in range(1, n+1):
+    sum += i 
+print(sum)
