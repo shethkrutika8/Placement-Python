@@ -183,5 +183,11 @@ for i in range(n):
 
 #find the GCD of two numbers.
 
-n1 = int(input("Entre the first numbers : "))
-n2 = int(input("Entre the second number"))
+a = int(input("Entre the first numbers : "))
+b = int(input("Entre the second number"))
+gcd = 1
+for i in range(1, min(a,b) + 1):
+    if a % i == 0 and b % i == 0:
+        gcd = i
+
+print("GCD : ", gcd)
