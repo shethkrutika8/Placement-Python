@@ -170,3 +170,18 @@ for i in range(1, 11):
 #             break
 #     else:
 #         print("Prime")
+'''
+# fibbonaci series
+n = int(input("Entre the number : "))
+a = 0
+b = 1
+for i in range(n):
+    print(a, end = " ")
+    c = a + b
+    a = b
+    b = c'''
+
+#find the GCD of two numbers.
+
+n1 = int(input("Entre the first numbers : "))
+n2 = int(input("Entre the second number"))
