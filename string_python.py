@@ -28,3 +28,37 @@ print("Reverse : ", rev)'''
 #     print("String is a pallindrome")
 # else:
 #     print("String is not a palidrome")
+
+'''#count the vowels and consonents
+
+str = input("Entre the string : ")
+vowels = "aeiouAEIOU"
+vowel_count = 0
+consonent_count = 0
+
+for char in str:
+    if char in vowels:
+        vowel_count += 1
+    else:
+        consonent_count += 1
+
+print("Vowels in the string : ", vowel_count)
+print("consonent in the string : ", consonent_count)'''
+
+# #count uppercase and lowercase
+# str = input("Entre the string : ")
+# uppercase = 0
+# lowercase = 0
+# for char in str:
+#     if char.isupper():
+#         uppercase += 1
+#     else:
+#         lowercase += 1
+# print("Uppser case letter : ", uppercase)
+# print("Lowercase letter : ", lowercase)
+
+#count the number of the digit in the string
+
+str = input("Entre the string : ")
+count = 0
+
