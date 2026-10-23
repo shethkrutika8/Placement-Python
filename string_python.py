@@ -56,9 +56,62 @@ print("consonent in the string : ", consonent_count)'''
 #         lowercase += 1
 # print("Uppser case letter : ", uppercase)
 # print("Lowercase letter : ", lowercase)
-
+'''
 #count the number of the digit in the string
 
 str = input("Entre the string : ")
 count = 0
+
+for char  in str:
+   if char.isdigit():
+      count += 1
+
+print("Number of the digit in the string is:" , count)
+'''
+
+# #count spaces in the string
+
+# str = input("Entre a string : ")
+# count = 0
+
+# for char in str:
+#     if char.isspace():
+#         count += 1
+# print("Count the spaces: ", count)
+
+
+'''
+#remove all the spaces form a string
+
+str = input("Entre a string : ")
+space = ""
+
+for char in str:
+    if char != " ":
+        space += char
+
+print("String without the space : ", space)
+
+text = input("Entre a string : ")
+space = text.replace(" ", "")
+print(space)'''
+
+# #count the frequancy of a character
+
+# text = input("Entre a string : ")
+# frequancy = {}
+
+# for char in text :
+#     if char in frequancy:
+#         frequancy[char] += 1
+#     else:
+#         frequancy[char] = 1
+# print(frequancy)
+'''
+#replace space with hypens
+
+name = input("Entre a string : ")
+space = name.replace(" ", "-")
+print(space)'''
+
 
