@@ -1,16 +1,30 @@
 # #find the length of the string
 
-# n = input("Entre the string : ")
-# string = len(n)
-# print("String length is : ", string)
+# str = input("Entre a string  :")
+# string = len(str)
+# print("Length of the string is : ", string)
+'''
+#reverse  string
 
-'''#Reverse a string
-
-n = input("Entre a string : ")
+str = input("Entre a string : ")
 rev = ""
+for i in range(len(str)-1, -1, -1):
+    rev += str[i]
 
-for  i in range(len(n)-1, -1, -1):
-    rev += n[i]
+print("Reverse : ", rev)'''
 
-print("Reversed String : ", rev)'''
+# #check whether string is a palidrome or not ?
 
+# str = input("Entre a string : ")
+# rev = ""
+# original = str
+
+# for i in range(len(str)-1, -1, -1):
+#     rev += str[i]
+
+# print ("Reverse : ", rev)
+
+# if rev == original :
+#     print("String is a pallindrome")
+# else:
+#     print("String is not a palidrome")
