@@ -114,16 +114,40 @@ name = input("Entre a string : ")
 space = name.replace(" ", "-")
 print(space)'''
 
-# check whether twon string are anargrams
+# # check whether twon string are anargrams
 
-str1 = input("Entre string 1: ")
-str2 = input("Entre string 2: ")
+# str1 = input("Entre string 1: ")
+# str2 = input("Entre string 2: ")
 
-if len(str1) != len(str2):
-    print("Not Anargam")
+# if len(str1) != len(str2):
+#     print("Not Amargam")
+# else:
+#     for i in str1:
+#         if str1.count(i) != str2.count(i):
+#             print("Not amargam")
+#             break
+#     else:
+#         print("Amargam")
+
+'''#Remove duplicate characater
+
+str = input("Entre the string : ")
+result = "" 
+
+for char in str:
+    if char not in result :
+         result += char
+
+print(result)
+'''
+
+#find the first non repeating character
+
+str = input("Entre the string : ")
+
+for char in str:
+    if str.count(char) == 1:
+        print("First non-repeating character : ", char)
+        break
 else:
-    for i in str1:
-        if str1.count(i) != str2.count(i):
-            print("Not anargam")
-    else:
-            print("Anargam")
+        print("No non-reapetign charatare")
