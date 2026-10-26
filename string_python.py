@@ -141,13 +141,24 @@ for char in str:
 print(result)
 '''
 
-#find the first non repeating character
+# #find the first non repeating character
 
-str = input("Entre the string : ")
+# str = input("Entre the string : ")
 
-for char in str:
-    if str.count(char) == 1:
-        print("First non-repeating character : ", char)
-        break
-else:
-        print("No non-reapetign charatare")
+# for char in str:
+#     if str.count(char) == 1:
+#         print("First non-repeating character : ", char)
+#         break
+# else:
+#         print("No non-reapetign charatare")
+
+
+#count the number of the words in the string
+
+str = input("Entre a string : ")
+space = " "
+space_count = 0
+for  char in str:
+   if space in char:
+      space_count += 1
+print(space_count)
